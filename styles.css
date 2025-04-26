@@ -112,7 +112,7 @@
 }
 
 .body {
-    height: 730px;
+    
 }
 
 .row1 {
@@ -169,7 +169,7 @@
 }
 
 .skills {
-    height: 700px;
+    height: 500px;
     border-radius:10px;
     
 }
@@ -179,6 +179,7 @@
 }
 
 .allskills {
+	display:flex;
     width: 100%;
     height: 350px;
     border-radius: 20px;
@@ -231,9 +232,11 @@ border:1px solid green;
 }
 
 .allprojects {
-    height: 750px;
+    height: 450px;
     text-align: center;
 }
+
+
 .projects{
     height:200px;
     width:30%;
@@ -320,3 +323,91 @@ border:1px solid green;
     background-color: black;
     padding-top: 30px;
 }
+
+
+@media all and (max-width:1464px){
+	
+	.certificatesrow{
+	width:100%;
+	height:800px;
+	 text-align: center;
+	}
+	.certificates {
+    height: 1150px;
+	width:100%;
+    border-radius:20px;
+}
+}
+
+@media all and (max-width:1434px){
+ .programminglanguages1{
+    float:right;
+    text-align: center;
+    background-color:yellow;
+    margin:20px;
+    margin-left:30px;
+    padding: 40px;
+    height:180px;
+    border-radius: 10px;
+    border:2px groove blueviolet;
+}
+
+.allprojects {
+    height: 850px;
+    text-align: center;
+}
+
+.home {
+    width: 30%;
+    height:400px;
+    overflow:scroll;
+    float: left;
+    font-size: 25px;
+    margin: 40px;
+    margin-top: 20px;
+    border-radius: 20px;
+    padding: 10px;
+    color: white;
+    background-color: black;
+}
+
+
+.name {
+    width: 50%;
+    float: right;
+    margin: 40px;
+    margin-top: 50px;
+    font-size: 45px;
+    background-color: white;
+    border-radius: 10px;
+    padding: 4px;
+    text-align: center;
+}
+	
+	}
+	
+@media all and (max-width:595px){
+	
+.row1 {
+    width: 100%;
+    height: 40%;
+    border: 2px double aqua;
+    background-image: url('images/about2.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 30px;
+         }
+	}
+
+
+
+
+
+
+
+
+
+
+
+
+
